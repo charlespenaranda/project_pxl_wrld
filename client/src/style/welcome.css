@@ -1,0 +1,192 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.root {
+    height: flex;
+}
+
+* {
+    font-family: 'Century Gothic';
+
+}
+
+.char-main {
+    height: 100%;
+
+    display: flex;
+    row-gap: 20px;
+    column-gap: 10px;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.char-main .char-info {
+    height: 200px;
+    width: 500px;
+    padding-top: 12%;
+
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.char-main .char-card {
+    background-color: #F4F4F2;
+    height: 100%;
+    width: 300px;
+    padding: 10px;
+
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+
+.Header-text{
+    border: none;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.label-text{
+    border: none;
+    height: 30px;
+    width: 250px;
+
+    justify-content: left;
+    align-items: left;
+}
+.label-info{
+    padding-left: 130px;
+
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 242px;
+
+  }
+
+button {
+    border: none;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #495464;
+
+}
+
+.h1 {
+    padding: 0;
+    margin: 0;
+
+}
+
+.char-logo {
+
+    height: 50px;
+    width: 50px;
+
+}
+
+.table-main {
+    background-color: #E8E8E8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+    display: grid;
+    row-gap: 15px;
+
+}
+
+.table-main .header-wrapper {
+
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    place-items: center;
+   
+}
+
+.header-wrapper span {
+
+    font-weight: bold;
+
+}
+
+.table-main .row-wrapper {
+
+    display: grid;
+    grid-template-columns: 1fr 160px;
+    place-items: center;
+
+}
+
+.inventory-main{
+
+    background-color: #E8E8E8;
+    padding: 20px;
+
+    display: grid;
+    row-gap: 10px;
+    place-items: center;
+    
+}
+
+.inventory-main .inventory-header-wrapper {
+
+    height: 80px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    gap: 10px;
+    place-items: center;
+
+   
+}
+
+.inventory-header-wrapper .div-columns {
+
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #495464;
+    border-radius: 5px;
+
+    display: grid;
+    place-items: center;
+   
+}
+
+.inventory-header-wrapper .div-items {
+
+    width: 100%;
+    height: 100%;
+    color: black;
+    background-color: #F4F4F2;
+    border-radius: 5px;
+
+    display: grid;
+    place-items: center;
+   
+}
+
+.inventory-header-wrapper button {
+
+   height: 20px;
+   width: 120px;
+
+}
